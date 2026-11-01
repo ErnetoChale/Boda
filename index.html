@@ -193,11 +193,11 @@ a { color: inherit; }
       <div class="back"></div>
       <div class="letter" aria-hidden="true">
         <span class="l-script">Nos casamos</span>
-        <span class="l-small">Sábado 7 de noviembre</span>
-        <span class="l-time">3:00 p.m.</span>
+        <span class="l-small">Sábado 28 de noviembre</span>
+        <span class="l-time">16:00 p.m.</span>
       </div>
       <div class="front">
-        <div class="names"><b>Jose &amp; Giselle</b><span>Sábado 7 de noviembre</span></div>
+        <div class="names"><b>Jose &amp; Giselle</b><span>Sábado 28 de noviembre</span></div>
       </div>
       <div class="flap"></div>
       <button class="seal" id="seal" type="button" aria-label="Abrir la invitación" aria-expanded="false">J&amp;G</button>
@@ -217,7 +217,7 @@ a { color: inherit; }
 
   <section class="date" aria-label="Fecha de la boda">
     <p class="label">Sábado</p>
-    <p class="day">7</p>
+    <p class="day">28</p>
     <p class="label">Noviembre 2026</p>
     <div class="countdown" id="countdown" role="timer" aria-label="Cuenta regresiva para la boda">
       <div><b id="cd-d">0</b><span>Días</span></div>
@@ -233,7 +233,7 @@ a { color: inherit; }
   <section class="event" aria-labelledby="t-ceremonia">
     <p class="label">La ceremonia</p>
     <h2 id="t-ceremonia">Boda religiosa</h2>
-    <p class="time">3:00 p.m.</p>
+    <p class="time">16:00 p.m.</p>
     <p class="place">Iglesia Apostólica de la Fe en Cristo Jesús</p>
     <p class="addr" id="addr-iglesia">Calle 16 de Septiembre</p>
     <div class="actions">
@@ -290,7 +290,7 @@ a { color: inherit; }
   env.addEventListener('click', openEnvelope);
   seal.addEventListener('click', function (e) { e.stopPropagation(); openEnvelope(); });
 
-  /* Cuenta regresiva: sábado 7 de noviembre de 2026, 3:00 p.m. (hora del centro de México, UTC-6) */
+  /* Cuenta regresiva: sábado 28 de noviembre de 2026, 16:00 p.m. (hora del centro de México, UTC-6) */
   var target = new Date('2026-11-07T15:00:00-06:00').getTime();
   var cd = document.getElementById('countdown');
   var msg = document.getElementById('cd-msg');
